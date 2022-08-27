@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Main';
+    src: url(digital-7.regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    
+}
+.time{
+    font-family: 'Main';
+    font-size: 100px;
+    color: #ff0000;
+    text-shadow: 0px 0px 20px  rgb(207, 45, 45);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+@media only screen and (max-width:460px) {
+ .time{
+    font-size: 70px;
+ }
+}
